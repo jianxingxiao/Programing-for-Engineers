@@ -11,8 +11,9 @@ int main(void){
         printf("memory allocation failure");
         return 1;
     }
+    //printf("Enter %d number: ",i +1);
+    printf("Enter number: " );
     for(int i = 0; i < n; i++){
-        printf("Enter %d number: ",i +1);
         scanf("%d",&b);
         arr[i] = b;
     }
@@ -27,7 +28,7 @@ int main(void){
             arr1 [i] = arr [i];         
             sum +=arr1[i];
 
-            printf("even number a is %d\n",arr1[i]);
+            printf("even number %d is %d\n",i,arr1[i]);
         } 
         
     }
